@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SOXShapedTapButton" customModule="testing" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvj-Wk-Olh" customClass="SOXShapedTapButton" customModule="testing" customModuleProvider="target">
+                                <rect key="frame" x="109" y="254" width="157" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="9O7-EU-sry"/>
+                                    <constraint firstAttribute="width" constant="157" id="u7G-o5-O6y"/>
+                                </constraints>
+                                <state key="normal" image="DSNY logo _ Splash"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="treshold">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="log:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BV5-Vo-YT5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABX-0C-Njw" customClass="SOXShapedTapButton" customModule="testing" customModuleProvider="target">
+                                <rect key="frame" x="267" y="300" width="66" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="cB1-kp-MnT"/>
+                                    <constraint firstAttribute="height" constant="66" id="ccV-1P-K2T"/>
+                                </constraints>
+                                <state key="normal" image="FingerPrint"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="treshold">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fingerprint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fv-DT-Tlm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXs-lU-DIj">
+                                <rect key="frame" x="336" y="234" width="17" height="21"/>
+                                <state key="normal" image="Senior Staff"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5S8-46-RCG" customClass="SOXShapedTapButton" customModule="testing" customModuleProvider="target">
+                                <rect key="frame" x="210" y="355" width="157" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="10B-rm-Dwc"/>
+                                    <constraint firstAttribute="height" constant="157" id="k05-zd-IA0"/>
+                                </constraints>
+                                <state key="normal" image="MyDsnyEmployeePlaceHolder"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="treshold">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="qwer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kpr-7Z-XYg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVl-vR-YgQ" customClass="SOXShapedTapButton" customModule="testing" customModuleProvider="target">
+                                <rect key="frame" x="261" y="350" width="16" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="dUO-96-ptP"/>
+                                    <constraint firstAttribute="width" constant="16" id="h7t-zq-lDf"/>
+                                </constraints>
+                                <state key="normal" image="Senior Staff"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="treshold">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ex:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgQ-GJ-vH2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSNY logo _ Splash" translatesAutoresizingMaskIntoConstraints="NO" id="xka-Cr-WjU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="246" id="C7O-E3-dE2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kvj-Wk-Olh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0De-Y1-D0o"/>
+                            <constraint firstItem="5S8-46-RCG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="3pX-kP-Rd6"/>
+                            <constraint firstItem="5S8-46-RCG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="101" id="5eh-Z0-ibH"/>
+                            <constraint firstItem="xka-Cr-WjU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6CD-W3-o3z"/>
+                            <constraint firstItem="hVl-vR-YgQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="82" id="AdH-M1-xVr"/>
+                            <constraint firstItem="xka-Cr-WjU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DwX-Rq-qmg"/>
+                            <constraint firstItem="Kvj-Wk-Olh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IY7-Bv-ayi"/>
+                            <constraint firstAttribute="trailing" secondItem="xka-Cr-WjU" secondAttribute="trailing" id="MYg-M1-L4m"/>
+                            <constraint firstItem="ABX-0C-Njw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="113" id="N43-RT-SR7"/>
+                            <constraint firstItem="hVl-vR-YgQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="28" id="awi-a3-5G5"/>
+                            <constraint firstItem="ABX-0C-Njw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vkK-PN-I7c"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="fingertapped" destination="ABX-0C-Njw" id="0ZC-cu-ccF"/>
+                        <outlet property="imageView" destination="xka-Cr-WjU" id="GJ4-ua-Vxe"/>
+                        <outlet property="logotapped" destination="Kvj-Wk-Olh" id="bck-bo-GZY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="356.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSNY logo _ Splash" width="157" height="157"/>
+        <image name="FingerPrint" width="66" height="66"/>
+        <image name="MyDsnyEmployeePlaceHolder" width="1024" height="1024"/>
+        <image name="Senior Staff" width="16" height="17"/>
+    </resources>
+</document>
